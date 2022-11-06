@@ -1,0 +1,21 @@
+.button-submit {
+    transition: all .2s;
+
+    width: 20%;
+    height: 35px;
+
+    font-size: 1em;
+
+    border: 1px black solid;
+    border-radius: 6px;
+    background-color: whitesmoke;
+
+    &:hover {
+        transition: all .2s;
+        background-color: rgb(99, 114, 250);
+        border-radius: 12px;
+
+        color: white;
+        border-color: white;
+    }
+}

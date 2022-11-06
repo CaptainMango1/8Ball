@@ -1,0 +1,31 @@
+.ball-container {
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+    width: 60%;
+    text-align: center;
+
+    p {
+        margin-bottom: 5%;
+        font-size: 1.5em;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+    }
+
+
+    input[type="text"] {
+        text-align: center;
+        width: 20%;
+        background-color: unset;
+        color: white;
+        border: unset;
+        font-size: 1.5em;
+        margin-bottom: 3%;
+    }
+
+    input[type="text"]:focus {
+        outline: none;
+        border-bottom: 1px solid #FFFFFF;
+    }
+}
