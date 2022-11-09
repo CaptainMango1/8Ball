@@ -1,6 +1,13 @@
-let input = document.getElementById('input');
-let output = document.getElementById('out');
+const OG = 4;
+const UG = 0;
 
-input.addEventListener('keyup', () => {
-    output.innerHTML = (input.value);
+const input = document.getElementById('input');
+const output = document.getElementById('out');
+const submit = document.getElementById('submit');
+
+submit.addEventListener('click', () => {
+    let ans = ['Yes', 'No', 'Maybe', '...', 'I am not sure'];
+    let ansNum = Math.round(Math.random() * OG);
+
+    output.innerHTML = ans[ansNum];
 });
