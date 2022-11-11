@@ -1,6 +1,5 @@
 const OG = 4;
 const UG = 0;
-
 const input = document.getElementById('input');
 const output = document.getElementById('out');
 const submit = document.getElementById('submit');
